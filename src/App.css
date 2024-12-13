@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.searchbar {
+  width: 100%;
+  height: 40px;
+  max-width: 700px;
+  display: inline-flex;
+}
+
+.searchbar--max-width {
+  max-width: 100%;
+}
+
+.searchbar__input {
+  flex-grow: 1;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #8cc6ba;
+  border-radius: 5px 0 0 5px;
+  background: #f4faf9;
+  transition: background 0.25s, box-shadow 0.25s;
+}
+
+.searchbar__input:focus {
+  background: white;
+  box-shadow: 0 0 2px #8cc6ba;
+}
+
+.searchbar__input::placeholder {
+  color: #8cc6ba;
+}
+
+.searchbar__button {
+  width: 50px;
+  background: #b0bebc;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.searchbar__button:active {
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.25);
+}
+
+/* For login button */
+.loginButton {
+  border-radius: 5px;
+  height: 40px;
+  width: 155px;
+  font-family: unset;
+  border-color: transparent;
+  background-color: #05f599;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: small;
+
+  padding: 5px;
+}
+
+.centerAlign {
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+.divider {
+  border-left: 1px solid #d9e2e1;
+  height: 20px;
+
+  margin-left: 20px;
+}
+
+.textColor {
+  color: #a1a1a1;
+  font-size: small;
+}
+
+/* Tabs Style */
+
+.buttonStyle {
+  background-color: transparent;
+  color: gray;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: unset;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.ImageWhite:hover {
+  color-scheme: white;
+}
+.full-height {
+  height: 100%;
+  background: yellow;
+}
+
+.inputOutlineNone {
+  outline: none;
+  padding: 5px;
+  border: none;
+  font-family: unset;
+  font-size: 15px;
+  color: gray;
+}
+
+.buttonShape {
+  font-size: 15px;
+  font-family: unset;
+  background-color: #05f599;
+  border: none;
+  padding: 5px;
+  width: 300px;
+  color: white;
+}
+
+.paragraph {
+  font-family: unset;
+  font-size: 15px;
+  margin-left: 2px;
+  color: gray;
+}
+.paragraph1 {
+  font-family: unset;
+  font-size: 16px;
+  font: bold;
+  margin-left: 2px;
+  color: #05f599;
+}
+
+.imageOverlay {
+  background-image: url("https://media.istockphoto.com/photos/full-length-side-profile-body-size-photo-beautiful-she-her-lady-ideal-picture-id1151169816?k=20&m=1151169816&s=612x612&w=0&h=tPWF1cFGHAObnMIXA_yqiUdqgBiLZHlSaLONd9ZcA8c="),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+}
